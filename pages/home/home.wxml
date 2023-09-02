@@ -1,0 +1,22 @@
+<view class="main">
+  <t-toast id="t-toast" />
+  <view class="title-wrap">
+    <image class="title-icon" mode="aspectFit" src="/assets/TDesignLogo@2x.png" aria-label="TDesign Logo" />
+  </view>
+  <view class="desc"> TDesign 适配微信小程序的组件库 </view>
+  <!-- <t-input placeholder="zepp 账号" value="{{user}}" bindchange="onChangeUser"/>
+  <t-input placeholder="zepp 密码" value="{{password}}" bindchange="onChangePassword"/>
+  <t-input placeholder="您想修改的步数" value="{{steps}}" bindchange="onChangeSteps"/>
+  <view class="btn">
+    <t-button theme="primary" size="large" block bind:tap="onHandleSubmit">提交</t-button>
+  </view> -->
+  
+  <pull-down-list
+    wx:for="{{list}}"
+    name="{{item.name}}"
+    icon="{{item.icon}}"
+    wx:key="name"
+    childArr="{{item.childArr}}"
+    bind:click="clickHandle"
+  />
+</view>

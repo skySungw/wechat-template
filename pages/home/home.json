@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "pull-down-list": "../../components/pull-down-list/index",
+    "t-input": "tdesign-miniprogram/input/input",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-toast": "tdesign-miniprogram/toast/toast"
+  },
+  "navigationBarTitleText": "TDesign UI",
+  "navigationBarBackgroundColor": "#f6f6f6",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#f6f6f6"
+}
